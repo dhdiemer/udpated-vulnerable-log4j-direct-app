@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:30.1.1-jre'
+}
+
+application {
+    mainClass = 'sample.vulnerable.log4j.repo.App'
+}
