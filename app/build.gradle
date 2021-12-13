@@ -13,5 +13,5 @@ dependencies {
 }
 
 application {
-    mainClass = 'sample.vulnerable.log4j.repo.App'
+    mainClass = 'sample.vulnerable.log4j.direct.app.App'
 }

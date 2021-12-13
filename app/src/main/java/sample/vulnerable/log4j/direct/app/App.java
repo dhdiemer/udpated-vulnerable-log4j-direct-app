@@ -1,4 +1,4 @@
-package sample.vulnerable.log4j.repo;
+package sample.vulnerable.log4j.direct.app;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
